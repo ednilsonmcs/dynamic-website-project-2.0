@@ -9,7 +9,9 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
-import LogoIcon from '../svg/LogoIcon'
+import DevIcon from '../svg/DevIcon';
+import BulbIcon from '../svg/BulbIcon';
+import ClassIcon from '../svg/ClassIcon';
 
 export default () => (
   <Layout>
@@ -38,6 +40,7 @@ export default () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
+              <DevIcon />
               <p className="font-semibold text-xl">Desenvolvimento</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
@@ -47,6 +50,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
+              <BulbIcon />
               <p className="font-semibold text-xl">Consultoria</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
@@ -56,6 +60,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
+              <ClassIcon />
               <p className="font-semibold text-xl">Treinamento</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
