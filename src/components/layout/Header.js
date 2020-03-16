@@ -1,8 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
-import HeaderLogo from '../../svg/HeaderLogo.svg';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
@@ -30,17 +28,17 @@ const Header = () => (
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          Features
+        <AnchorLink className="px-4" href="#solucoes">
+          Soluções
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
-          Services
+        <AnchorLink className="px-4" href="#ferramentas">
+          Ferramentas
         </AnchorLink>
         <AnchorLink className="px-4" href="#stats">
           Stats
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+        <AnchorLink className="px-4" href="#depoimentos">
+          Depoimentos
         </AnchorLink>
       </div>
       <div className="hidden md:block">
