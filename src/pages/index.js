@@ -8,7 +8,7 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
-import HeroImage from '../svg/HeroImage';
+import LottieWork from '../components/LottieWork'
 import SvgCharts from '../svg/SvgCharts';
 import DevIcon from '../svg/DevIcon';
 import BulbIcon from '../svg/BulbIcon';
@@ -26,11 +26,11 @@ export default () => (
           Treinamento e desenvolvimento nas ferramentas da Microsoft. Excel, PowerPoint, Power BI e muito mais.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Button size="lg">Conheça a Dynamic</Button>
           </p>
         </div>
-        <div className="lg:w-1/2">
-          <HeroImage />
+        <div className="m-0 lg:w-1/2">
+          <LottieWork />
         </div>
       </div>
     </section>
