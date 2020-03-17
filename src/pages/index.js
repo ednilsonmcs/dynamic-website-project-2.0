@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../components/Button';
+import LineButton from '../components/LineButton';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
@@ -16,7 +17,7 @@ import ClassIcon from '../svg/ClassIcon';
 export default () => (
   <Layout>
     <section className="pt-20 md:pt-40" id="top">
-      <div className="container mx-auto px-8 lg:flex">
+      <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl leading-none">
             Dynamic Soluções
@@ -27,44 +28,44 @@ export default () => (
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
         </div>
       </div>
     </section>
-    <section id="solucoes" className="py-20 lg:pb-40 lg:pt-48">
+    <section id="solucoes" className="my-20 py-16 pb-20 lg:mb-40 lg:mt-48" style={{background: "linear-gradient(29deg, #5B87B5, #3B5F9E 70%)"}}>
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold text-white">Transforme a sua empresa com os nossos serviços</h2>
+        <p className="mt-4 text-white text-xl font-thin">Soluções personalizadas e pensadas no seu negócio</p>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
-            <Card className="mb-8">
+            <Card>
               <DevIcon />
               <p className="font-semibold text-xl">Desenvolvimento</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+              <p className="mt-4 mb-8">
+              Planilha que consome muito seu tempo? Tantos detalhes que sempre acaba com alguma informação errada?
+Criamos ferramentas automatizadas!
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
-            <Card className="mb-8">
+            <Card>
               <BulbIcon />
               <p className="font-semibold text-xl">Consultoria</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+              Uma das melhores opções para sua empresa, permitindo contratar planos de suporte remoto de um especialista em planilhas, apresentações e documentos.
+
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
-            <Card className="mb-8">
+            <Card>
               <ClassIcon />
               <p className="font-semibold text-xl">Treinamento</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+              Treinamentos in-company para qualificar a sua equipe nas principais ferramentas do mercado, aumentar a produtividade e
+abrir portas para novas possibilidades.
               </p>
             </Card>
           </div>
