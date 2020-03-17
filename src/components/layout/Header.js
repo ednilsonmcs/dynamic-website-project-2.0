@@ -24,6 +24,11 @@ const Header = () => (
       <div className="hidden md:block">
         <Button className="text-sm">Receber Planilha Grátis</Button>
       </div>
+      <div className="block pt-4 sm:pt-0 md:hidden">
+      <Link className="px-4" to="/paravoce">
+        Receber Planilha Grátis
+      </Link>
+      </div>
     </div>
   </header>
 );

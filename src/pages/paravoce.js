@@ -10,7 +10,7 @@ const ParaVocePage = () => (
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-center lg:text-left lg:w-1/2">
-          <div className="w-3/5">
+          <div className="w-3/5 mx-auto lg:mx-0">
             <DynamicLogo />
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
@@ -20,7 +20,7 @@ const ParaVocePage = () => (
             <Button><AnchorLink className="text-white hover:text-white" href="#solucoes">Conheça os Planos</AnchorLink></Button>
           </p>
         </div>
-        <div className="m-0 lg:w-1/2">
+        <div className="m-0 hidden lg:w-1/2 lg:block">
           <LottieWork />
         </div>
       </div>
