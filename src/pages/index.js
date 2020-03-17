@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../components/Button';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LineButton from '../components/LineButton';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
@@ -13,20 +14,21 @@ import SvgCharts from '../svg/SvgCharts';
 import DevIcon from '../svg/DevIcon';
 import BulbIcon from '../svg/BulbIcon';
 import ClassIcon from '../svg/ClassIcon';
+import DynamicLogo from '../svg/DynamicLogo'
 
 export default () => (
   <Layout>
     <section className="pt-20 md:pt-40" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl leading-none">
-            Dynamic Soluções
-          </h1>
+          <div className="w-3/5">
+            <DynamicLogo />
+          </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-          Treinamento e desenvolvimento nas ferramentas da Microsoft. Excel, PowerPoint, Power BI e muito mais.
+          Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft para a sua empresa. 
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Conheça a Dynamic</Button>
+            <Button><AnchorLink className="text-white hover:text-white" href="#solucoes">Conheça as Soluções</AnchorLink></Button>
           </p>
         </div>
         <div className="m-0 lg:w-1/2">
