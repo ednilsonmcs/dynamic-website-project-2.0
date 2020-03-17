@@ -10,7 +10,7 @@ const ClassIcon = () => (
     <g
       clipPath="url(#classIcon)"
       transform="translate(-811 -553)"
-      stroke="#5A88B6"
+      stroke="#243066"
       strokeMiterlimit={8}
       fill="none"
     >

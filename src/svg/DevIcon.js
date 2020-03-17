@@ -10,7 +10,7 @@ const DevIcon = () => (
       <g
         clipPath="url(#devIcon)"
         transform="translate(-402 -553)"
-        stroke="#5A88B6"
+        stroke="#243066"
         strokeMiterlimit={8}
         fill="none"
       >

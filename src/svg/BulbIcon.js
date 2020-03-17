@@ -10,7 +10,7 @@ const BulbIcon = () => (
       <g
         clipPath="url(#bulbIcon)"
         transform="translate(-619 -548)"
-        stroke="#5A88B6"
+        stroke="#243066"
         strokeMiterlimit={8}
         fill="none"
       >
