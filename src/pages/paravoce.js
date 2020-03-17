@@ -7,7 +7,7 @@ import LottieWork from '../components/LottieWork'
 
 const ParaVocePage = () => (
   <Layout>
-    <section className="pt-20 md:pt-40" id="top">
+    <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-center lg:text-left lg:w-1/2">
           <div className="w-3/5">
