@@ -1,5 +1,8 @@
 module.exports = {
   theme: {
+    fontFamily: {
+      'sans': ['Roboto', 'Helvetica', 'Arial']
+    },
     extend: {
       colors: {
         primary: {
