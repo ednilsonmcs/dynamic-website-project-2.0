@@ -10,7 +10,7 @@ const Button = ({ children, className = '', size }) => {
   const [hovered, setHovered] = useState(false)
 
   const styles = {
-    background: hovered ? "#243066" : "linear-gradient(90deg, #5B87B5 0%, #3B5F9E 100%)",
+    background: hovered ? "#243066" : "linear-gradient(29deg, #5B87B5, #3B5F9E 70%)",
   }
 
   return (
