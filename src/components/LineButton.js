@@ -11,7 +11,7 @@ const LineButton = ({ children, className = '', size }) => {
 
   const styles = {
     background: hovered ? "white" : "Transparent",
-    color: hovered ? "Transparent" : "white",
+    color: hovered ? "#3B5F9E" : "white",
     border: "1px solid white",
     transition: "0.2s"
   }
