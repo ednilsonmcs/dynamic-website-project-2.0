@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'gatsby'
 import Button from '../Button';
 import DynamicLogo from '../../svg/DynamicLogo'
+import {Whatsapp} from '../../svg/SocialIcons'
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
@@ -21,6 +22,10 @@ const Header = () => (
           Para Você
         </Link>
       </div>
+      <a 
+        target="_blank" 
+        href="https://api.whatsapp.com/send?phone=5551996936418" 
+        className="px-4 bg-green-500 hover:bg-green-700 text-white hover:text-white mr-6 rounded"><Whatsapp /></a>
       <div className="hidden md:block">
         <Link to="/planilhas-gratuitas"><Button className="text-sm">Planilhas Gratuitas</Button></Link>
       </div>
