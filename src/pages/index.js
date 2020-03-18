@@ -286,16 +286,16 @@ export default () => (
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Estatísticas Dynamic</LabelText>
+        <LabelText className="text-gray-600">Estatísticas Clientes Dynamic</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="100%" secondaryText="Clientes satisfeitos" />
+            <StatsBox primaryText="100%" secondaryText="Satisfeitos com o resultado" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="95%" secondaryText="Fizeram mais de 1 projeto" />
+            <StatsBox primaryText="95%" secondaryText="Fizeram múltiplos projetos" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="100%" secondaryText="Projetos entregues no prazo" />
+            <StatsBox primaryText="100%" secondaryText="Receberam dentro do prazo" />
           </div>
         </div>
       </div>
