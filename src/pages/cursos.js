@@ -6,7 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import DynamicLogo from '../svg/DynamicLogo'
 import LottieWork from '../components/LottieWork'
 
-const ParaVocePage = () => (
+const CursosPage = () => (
   <Layout>
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
@@ -36,4 +36,4 @@ const ParaVocePage = () => (
   </Layout>
 )
 
-export default ParaVocePage
+export default CursosPage

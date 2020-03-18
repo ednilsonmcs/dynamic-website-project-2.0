@@ -15,17 +15,17 @@ const Header = () => (
       </div>
       <div className="flex mt-4 sm:mt-0">
         <Link className="px-4" to="/">
-          Para Empresas
+          Home
         </Link>
-        <Link className="px-4" to="/paravoce">
-          Para Você
+        <Link className="px-4" to="/cursos">
+          Cursos
         </Link>
       </div>
       <div className="hidden md:block">
         <Button className="text-sm">Planilhas Gratuitas</Button>
       </div>
       <div className="block pt-4 sm:pt-0 md:hidden">
-      <Link className="px-4" to="/paravoce">
+      <Link className="px-4" to="/planilhas-gratuitas">
         Planilhas Gratuitas
       </Link>
       </div>
