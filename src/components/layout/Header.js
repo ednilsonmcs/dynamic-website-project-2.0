@@ -1,28 +1,28 @@
 import React from 'react';
 import {Link} from 'gatsby'
 import Button from '../Button';
-import DynamicIcon from '../../svg/DynamicIcon'
+import DynamicLogo from '../../svg/DynamicLogo'
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-2xl">
-        <div className="w-12 mr-3">
+        <div className="w-40 mr-3">
           <Link to="/">
-            <DynamicIcon />
+            <DynamicLogo />
           </Link>
         </div>
       </div>
-      <div className="flex mt-4 sm:mt-0">
-        <Link className="px-4" to="/">
-          Home
+      <div className="flex mt-4 lg:mr-auto lg:ml-4 sm:mt-0">
+        <Link className="px-4" to="/" activeClassName="bg-primary text-white">
+          Para Empresas
         </Link>
-        <Link className="px-4" to="/cursos">
-          Cursos
+        <Link className="px-4" to="/cursos" activeClassName="bg-primary text-white">
+          Para Você
         </Link>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Planilhas Gratuitas</Button>
+        <Link to="/planilhas-gratuitas"><Button className="text-sm">Planilhas Gratuitas</Button></Link>
       </div>
       <div className="block pt-4 sm:pt-0 md:hidden">
       <Link className="px-4" to="/planilhas-gratuitas">
