@@ -11,7 +11,7 @@ import customerData from '../data/customer-data';
 import LottieWork from '../components/LottieWork'
 import SvgCharts from '../svg/SvgCharts';
 import SvgReport from '../svg/SvgReport';
-import DynamicLogo from '../svg/DynamicLogo'
+import DynamicIcon from '../svg/DynamicIcon'
 
 import SolucoesSection from '../components/SolucoesSection'
 
@@ -20,8 +20,8 @@ export default () => (
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-center lg:text-left lg:w-1/2">
-          <div className="w-3/5 mx-auto lg:mx-0">
-            <DynamicLogo />
+          <div className="w-1/5 mb-8 mx-auto lg:mx-0">
+            <DynamicIcon />
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
           Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft para a sua empresa. 
@@ -286,23 +286,23 @@ export default () => (
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
+        <LabelText className="text-gray-600">Estatísticas Dynamic</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="100%" secondaryText="Clientes satisfeitos" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="95%" secondaryText="Fizeram mais de 1 projeto" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="100%" secondaryText="Projetos entregues no prazo" />
           </div>
         </div>
       </div>
     </section>
     <section id="depoimentos" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
+        <LabelText className="mb-8 text-gray-600 text-center">O que dizem nossos clientes</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -313,12 +313,12 @@ export default () => (
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-      <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+      <h3 className="text-5xl font-semibold">Ficou com alguma dúvida?</h3>
+      <p className="mt-8 mb-12 text-lg font-light">
+        Estamos à sua disposição! A Dynamic tem a solução ideal para a sua empresa.
       </p>
-      <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+      <p>
+        <Button size="lg">Fale com a gente</Button>
       </p>
     </section>
   </Layout>
