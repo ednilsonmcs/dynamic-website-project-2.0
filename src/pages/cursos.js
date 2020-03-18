@@ -3,7 +3,7 @@ import Layout from '../components/layout/Layout';
 import Button from '../components/Button';
 import LineButton from '../components/LineButton';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import DynamicLogo from '../svg/DynamicLogo'
+import DynamicIcon from '../svg/DynamicIcon'
 import LottieWork from '../components/LottieWork'
 
 const CursosPage = () => (
@@ -11,11 +11,11 @@ const CursosPage = () => (
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-center lg:text-left lg:w-1/2">
-          <div className="w-3/5 mx-auto lg:mx-0">
-            <DynamicLogo />
+          <div className="w-1/5 mb-8 mx-auto lg:mx-0">
+            <DynamicIcon />
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-          Aulas particulares das ferramentas da Microsoft personalizadas para você. 
+          Cursos particulares online para aprofundar os conhecimentos nas ferramentas da Microsoft.
           </p>
           <p className="mt-8 md:mt-12">
             <Button><AnchorLink className="text-white hover:text-white" href="#planos">Conheça os Planos</AnchorLink></Button>
