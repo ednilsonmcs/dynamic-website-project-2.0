@@ -5,7 +5,7 @@ const SplitSection = ({ id, primarySlot, secondarySlot, reverseOrder, classMargi
     <div className="container mx-auto px-16 items-center flex flex-col lg:flex-row">
       <div className="lg:w-1/2">{primarySlot}</div>
       <div
-        className={`${classMargin} mt-10 lg:mt-0 w-1/2 lg:w-1/3 ${reverseOrder && `order-last lg:order-first`}`}
+        className={`${classMargin} mt-10 lg:mt-0 w-1/2 ${reverseOrder && `order-last lg:order-first`}`}
       >
         {secondarySlot}
       </div>
