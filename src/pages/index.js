@@ -17,7 +17,7 @@ import SolucoesSection from '../components/SolucoesSection'
 
 export default () => (
   <Layout>
-    <SEO title="Home"/>
+    <SEO title="Home" description="Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft. Conheça nossas soluções!"/>
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-center lg:text-left lg:w-1/2">

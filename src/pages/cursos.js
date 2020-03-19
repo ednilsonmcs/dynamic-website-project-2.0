@@ -10,7 +10,7 @@ import LottieWork from '../components/LottieWork'
 
 const CursosPage = () => (
   <Layout>
-    <SEO title="Cursos" />
+    <SEO title="Cursos" description="Conheça nossas soluções para você se destacar com as ferramentas Microsoft! Soluções para Excel, PowerPoint, Power BI, entre outras."/>
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-center lg:text-left lg:w-1/2">
