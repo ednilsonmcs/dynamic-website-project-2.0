@@ -42,7 +42,7 @@ const Footer = () => (
         </ul>
       </div>
     </div>
-    <p className="text-center mt-12"><a className="hover:bg-purple-500 hover:px-1 hover:text-white text-gray-400" target="_blank" href="https://www.muttonidigital.com/">Site desenvolvido pela Muttoni Digital</a></p>
+    <p className="text-center mt-12"><a className="hover:bg-muttoni hover:px-1 hover:text-white text-gray-500" target="_blank" href="https://www.muttonidigital.com/">Site desenvolvido pela Muttoni Digital</a></p>
   </footer>
 );
 
