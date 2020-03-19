@@ -311,6 +311,7 @@ export default () => (
             </div>
           ))}
         </div>
+        <a target="_blank" href="https://bit.ly/2U2Kerl"></a><Button className="flex mx-auto mt-8">Veja mais</Button>
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
