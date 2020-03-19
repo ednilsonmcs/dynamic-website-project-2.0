@@ -12,6 +12,7 @@ import LottieWork from '../components/LottieWork'
 import SvgCharts from '../svg/SvgCharts';
 import SvgReport from '../svg/SvgReport';
 import DynamicIcon from '../svg/DynamicIcon'
+import {Excel, PowerBI} from '../svg/SvgSheets' 
 
 import SolucoesSection from '../components/SolucoesSection'
 
@@ -163,7 +164,7 @@ export default () => (
     </svg>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<Excel />}
       classMargin="ml-auto"
     />
     <SplitSection
@@ -281,7 +282,7 @@ export default () => (
         </svg>
         </div>
       }
-      secondarySlot={<SvgReport />}
+      secondarySlot={<PowerBI />}
       classMargin="mr-auto"
     />
     <section id="stats" className="py-20 lg:pt-32">
