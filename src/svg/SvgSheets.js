@@ -2,7 +2,7 @@ import React from 'react'
 
 const Excel = () => (
   <div className="w-full">
-    <svg viewBox="0 0 261 154" overflow="hidden">
+    <svg viewBox="0 0 261 153" overflow="hidden">
       <defs>
         <radialGradient
           cx={2466980}
@@ -12,43 +12,32 @@ const Excel = () => (
           fy={161925}
           gradientUnits="userSpaceOnUse"
           spreadMethod="pad"
-          id="excelPrefix__b"
+          id="ExcelPrefix__b"
           gradientTransform="matrix(.0001 0 0 .0001 75 30)"
         >
           <stop offset={0} stopColor="#16AD6C" />
           <stop offset={0.99} stopColor="#015744" />
           <stop offset={1} stopColor="#015744" />
         </radialGradient>
-        <clipPath id="excelPrefix__a">
-          <path d="M74 29h261v154H74z" fillRule="evenodd" clipRule="evenodd" />
+        <clipPath id="ExcelPrefix__a">
+          <path d="M74 29h261v153H74z" fillRule="evenodd" clipRule="evenodd" />
         </clipPath>
       </defs>
-      <g clipPath="url(#excelPrefix__a)" transform="translate(-74 -29)">
+      <g clipPath="url(#ExcelPrefix__a)" transform="translate(-74 -29)">
         <path
           d="M80.71 30H328.29A5.711 5.711 0 01334 35.71V181H75V35.71A5.71 5.71 0 0180.71 30z"
           fill="#FFF"
           fillRule="evenodd"
         />
-        <path
-          d="M80.428 30h248.144A5.428 5.428 0 01334 35.428V47H75V35.428A5.428 5.428 0 0180.428 30z"
-          fill="url(#excelPrefix__b)"
-          fillRule="evenodd"
-        />
-        <path
-          d="M302 39c0-1.105 1.119-2 2.5-2s2.5.895 2.5 2-1.119 2-2.5 2-2.5-.895-2.5-2zM311 39a2 2 0 114 0 2 2 0 01-4 0zM319 39c0-1.105 1.119-2 2.5-2s2.5.895 2.5 2-1.119 2-2.5 2-2.5-.895-2.5-2z"
-          fill="#118858"
-          fillRule="evenodd"
-        />
         <path fill="#DBDBDB" d="M75 47h259v10H75z" />
         <path
-          d="M109 47v134.317M147 47v134.317M185 47v134.317M223 47v134.317M299 47v134.317M261 47v134.317M75 68h258.867M75 84h258.867M75 164h258.867M75 132h258.867M75 100h258.867M75 116h258.867M75 148h258.867"
+          d="M109.5 47.5v134.317M147.5 47.5v134.317M185.5 47.5v134.317M223.5 47.5v134.317M299.5 47.5v134.317M261.5 47.5v134.317M75.5 68.5h258.867M75.5 84.5h258.867M75.5 164.5h258.867M75.5 132.5h258.867M75.5 100.5h258.867M75.5 116.5h258.867M75.5 148.5h258.867"
           stroke="#C4C4C4"
-          strokeWidth={2}
           strokeMiterlimit={8}
           fill="none"
         />
         <path
-          d="M109.5 47.5v10.066M147.5 47.5v10.066M185.5 47.5v10.066M223.5 47.5v10.066M299.5 47.5v10.066M261.5 47.5v10.066"
+          d="M109.5 46.5v10.066M147.5 46.5v10.066M185.5 46.5v10.066M223.5 46.5v10.066M299.5 46.5v10.066M261.5 46.5v10.066"
           stroke="#A6A6A6"
           strokeMiterlimit={8}
           fill="none"
@@ -58,6 +47,16 @@ const Excel = () => (
           strokeMiterlimit={8}
           fill="#D3F4E6"
           d="M147.5 68.5h38v16h-38zM261.5 132.5h38v16h-38zM109.5 148.5h38v16h-38z"
+        />
+        <path
+          d="M80.428 30h248.144A5.428 5.428 0 01334 35.428V47H75V35.428A5.428 5.428 0 0180.428 30z"
+          fill="url(#ExcelPrefix__b)"
+          fillRule="evenodd"
+        />
+        <path
+          d="M302 39c0-1.105 1.119-2 2.5-2s2.5.895 2.5 2-1.119 2-2.5 2-2.5-.895-2.5-2zM311 39a2 2 0 114 0 2 2 0 01-4 0zM319 39c0-1.105 1.119-2 2.5-2s2.5.895 2.5 2-1.119 2-2.5 2-2.5-.895-2.5-2z"
+          fill="#118858"
+          fillRule="evenodd"
         />
       </g>
     </svg>

@@ -6,6 +6,9 @@ const SplitSection = ({ id, primarySlot, secondarySlot, reverseOrder, classMargi
       <div className="lg:w-1/2">{primarySlot}</div>
       <div
         className={`${classMargin} mt-10 lg:mt-0 w-1/2 ${reverseOrder && `order-last lg:order-first`}`}
+        style={{
+          boxShadow: '0 10px 28px rgba(0,0,0,.08)'
+        }}
       >
         {secondarySlot}
       </div>
