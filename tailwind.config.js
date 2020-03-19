@@ -9,6 +9,9 @@ module.exports = {
           lighter: '#5B87B5',
           default: '#3B5F9E',
           darker: '#243066'
+        },
+        muttoni: {
+          default: '#6250A1'
         }
       }
     }
