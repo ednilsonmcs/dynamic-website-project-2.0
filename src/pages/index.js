@@ -1,7 +1,8 @@
 import React from 'react';
+import SEO from "../components/seo"
+
 import Button from '../components/Button';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import LineButton from '../components/LineButton';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
@@ -9,8 +10,6 @@ import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import LottieWork from '../components/LottieWork'
-import SvgCharts from '../svg/SvgCharts';
-import SvgReport from '../svg/SvgReport';
 import DynamicIcon from '../svg/DynamicIcon'
 import {Excel, PowerBI} from '../svg/SvgSheets' 
 
@@ -18,6 +17,7 @@ import SolucoesSection from '../components/SolucoesSection'
 
 export default () => (
   <Layout>
+    <SEO title="Home"/>
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
         <div className="text-center lg:text-left lg:w-1/2">

@@ -9,6 +9,7 @@ module.exports = {
       options: {
         tailwindConfig: `tailwind.config.js`
       }
-    }
+    },
+    `gatsby-plugin-react-helmet`
   ]
 };
