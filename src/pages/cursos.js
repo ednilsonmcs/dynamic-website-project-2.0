@@ -13,8 +13,8 @@ const CursosPage = () => (
     <SEO title="Cursos" description="Conheça nossas soluções para você se destacar com as ferramentas Microsoft! Soluções para Excel, PowerPoint, Power BI, entre outras."/>
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <div className="w-1/5 mb-8 mx-auto lg:mx-0">
+        <div className="text-center lg:w-1/2">
+          <div className="w-1/5 mb-8 mx-auto">
             <DynamicIcon />
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">

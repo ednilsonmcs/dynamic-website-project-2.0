@@ -7,6 +7,7 @@ import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
+import LogoSection from '../components/LogoSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import LottieWork from '../components/LottieWork'
@@ -285,22 +286,8 @@ export default () => (
       secondarySlot={<PowerBI />}
       classMargin="mr-auto"
     />
-    <section id="stats" className="py-20 lg:pt-32">
-      <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Estatísticas Clientes Dynamic</LabelText>
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="100%" secondaryText="Satisfeitos com o resultado" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="95%" secondaryText="Fizeram múltiplos projetos" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="100%" secondaryText="Receberam dentro do prazo" />
-          </div>
-        </div>
-      </div>
-    </section>
+    <LabelText className="mb-8 mt-24 text-gray-600 text-center">Quem confia na Dynamic</LabelText>
+    <LogoSection />
     <section id="depoimentos" className="py-20 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">O que dizem nossos clientes</LabelText>
@@ -311,7 +298,7 @@ export default () => (
             </div>
           ))}
         </div>
-        <a target="_blank" href="https://bit.ly/2U2Kerl"></a><Button className="flex mx-auto mt-8">Veja mais</Button>
+        <a target="_blank" href="https://bit.ly/2U2Kerl"><Button className="flex mx-auto mt-8">Veja mais</Button></a>
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
@@ -320,7 +307,7 @@ export default () => (
         Estamos à sua disposição! A Dynamic tem a solução ideal para a sua empresa.
       </p>
       <p>
-        <Button size="lg">Fale com a gente</Button>
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=5551996936418&text=Ol%C3%A1!%20Voc%C3%AA%20pode%20me%20ajudar?"><Button size="lg">Fale com a gente</Button></a>
       </p>
     </section>
   </Layout>
