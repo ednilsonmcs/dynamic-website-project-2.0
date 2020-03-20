@@ -6,7 +6,7 @@ import Button from '../components/Button';
 import LineButton from '../components/LineButton';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import DynamicIcon from '../svg/DynamicIcon'
-import LottieWork from '../components/LottieWork'
+import LottieProgramming from '../components/LottieProgramming'
 
 const CursosPage = () => (
   <Layout>
@@ -25,7 +25,7 @@ const CursosPage = () => (
           </p>
         </div>
         <div className="m-0 hidden lg:w-1/2 lg:block">
-          <LottieWork />
+          <LottieProgramming />
         </div>
       </div>
     </section>
