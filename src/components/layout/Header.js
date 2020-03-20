@@ -25,7 +25,7 @@ const Header = () => (
       <a 
         target="_blank" 
         href="https://api.whatsapp.com/send?phone=5551996936418" 
-        className="px-4 bg-green-500 hover:bg-green-700 text-white hover:text-white mr-6 rounded"><Whatsapp /></a>
+        className="px-4 bg-green-500 hover:bg-green-700 text-white hover:text-white mt-3 md:mt-0 lg:mr-6 rounded"><Whatsapp /></a>
       <div className="hidden md:block">
         <Link to="/planilhas-gratuitas"><Button className="text-sm">Planilhas Gratuitas</Button></Link>
       </div>

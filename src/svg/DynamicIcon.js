@@ -1,7 +1,7 @@
 import React from 'react'
 
-const DynamicIcon = () => (
-  <svg overflow="hidden" viewBox="0 0 331 311">
+const DynamicIcon = ({className}) => (
+  <svg className={className} overflow="hidden" viewBox="0 0 331 311">
       <defs>
         <linearGradient
           id="dynamicIconPrefix__d"

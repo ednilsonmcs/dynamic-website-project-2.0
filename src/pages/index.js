@@ -20,9 +20,9 @@ export default () => (
     <SEO title="Home" description="Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft. Conheça nossas soluções!"/>
     <section className="pt-20" id="top">
       <div className="container mx-auto px-8 lg:flex items-center">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <div className="w-1/5 mb-8 mx-auto lg:mx-0">
-            <DynamicIcon />
+        <div className="text-center lg:w-1/2">
+          <div className="w-1/5 mb-8 mx-auto">
+            <DynamicIcon className=""/>
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
           Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft para a sua empresa. 

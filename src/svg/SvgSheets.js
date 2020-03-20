@@ -12,18 +12,18 @@ const Excel = () => (
           fy={161925}
           gradientUnits="userSpaceOnUse"
           spreadMethod="pad"
-          id="ExcelPrefix__b"
+          id="excelPrefix__b"
           gradientTransform="matrix(.0001 0 0 .0001 75 30)"
         >
           <stop offset={0} stopColor="#16AD6C" />
           <stop offset={0.99} stopColor="#015744" />
           <stop offset={1} stopColor="#015744" />
         </radialGradient>
-        <clipPath id="ExcelPrefix__a">
+        <clipPath id="excelPrefix__a">
           <path d="M74 29h261v153H74z" fillRule="evenodd" clipRule="evenodd" />
         </clipPath>
       </defs>
-      <g clipPath="url(#ExcelPrefix__a)" transform="translate(-74 -29)">
+      <g clipPath="url(#excelPrefix__a)" transform="translate(-74 -29)">
         <path
           d="M80.71 30H328.29A5.711 5.711 0 01334 35.71V181H75V35.71A5.71 5.71 0 0180.71 30z"
           fill="#FFF"
@@ -50,7 +50,7 @@ const Excel = () => (
         />
         <path
           d="M80.428 30h248.144A5.428 5.428 0 01334 35.428V47H75V35.428A5.428 5.428 0 0180.428 30z"
-          fill="url(#ExcelPrefix__b)"
+          fill="url(#excelPrefix__b)"
           fillRule="evenodd"
         />
         <path

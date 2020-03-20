@@ -4,15 +4,15 @@ import {Link} from 'gatsby'
 import {LinkedIn, Instagram} from '../../svg/SocialIcons' 
 
 const Footer = () => (
-  <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
-    <div className="flex -mx-3 content-center">
+  <footer className="container mx-auto py-16 px-3 mt-16 lg:mt-48 mb-8 text-gray-800">
+    <div className="flex -mx-3 content-center text-center lg:text-left flex-col lg:flex-row">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold mb-5">Sobre a Dynamic</h2>
         <p className="text-base font-light mb-3">Empresa fundada em abril de 2019, com o objetivo de ajudar empresas a automatizar tarefas manuais e repetitivas, melhorando a qualidade e produtividade. Usando softwares que são comuns no escritório, nossos clientes recebem soluções com preços mais acessíveis e mais rápido.</p>
         <p className="font-light">CNPJ: 34.909.360/0001-22</p>
         <p className="font-light">Porto Alegre - RS</p>
       </div>
-      <div className="flex-1 mx-auto px-3 text-center">
+      <div className="flex-1 mx-auto my-16 lg:my-0 px-3 text-center">
         <h2 className="text-lg font-semibold mb-5">Menu</h2>
         <ul>
           <li><Link className="px-4" to="/">
@@ -26,15 +26,15 @@ const Footer = () => (
           </Link></li>
         </ul>
       </div>
-      <div className="flex-1 px-3 text-right">
+      <div className="flex-1 px-3 text-center lg:text-right">
       <h2 className="text-lg font-semibold mb-5">Contato</h2>
-        <ul className="mb-4 leading-loose flex ">
-          <li className="mr-2 ml-auto">
+        <ul className="mb-4 flex lg:mr-2 mx-auto lg:ml-auto">
+          <span className="mx-auto lg:mx-0 lg:ml-auto flex"><li className="mr-2">
             <a target="_blank" href="https://www.linkedin.com/company/dynamicpoa/"><LinkedIn /></a>
           </li>
           <li>
             <a target="_blank" href="https://www.instagram.com/dynamicpoa/"><Instagram /></a>
-          </li>
+          </li></span>
         </ul>
         <ul>
           <li><a target="_blank" href="https://api.whatsapp.com/send?phone=5551996936418">+55 (51) 99693-6418</a></li>
