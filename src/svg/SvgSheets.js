@@ -1,13 +1,13 @@
 import React from 'react'
 
 const Excel = () => (
-  <div className="w-3/4 ml-auto">
+  <div className="w-full ml-auto">
     <svg viewBox="0 0 279 169" overflow="hidden">
       <defs>
-        <clipPath id="Excel__a">
+        <clipPath id="excel__a">
           <path d="M65 21h279v169H65z" fillRule="evenodd" clipRule="evenodd" />
         </clipPath>
-        <clipPath id="Excel__b">
+        <clipPath id="excel__b">
           <path d="M0 0h281v172H0z" fillRule="evenodd" clipRule="evenodd" />
         </clipPath>
         <radialGradient
@@ -18,7 +18,7 @@ const Excel = () => (
           fy={161925}
           gradientUnits="userSpaceOnUse"
           spreadMethod="pad"
-          id="Excel__d"
+          id="excel__d"
           gradientTransform="matrix(.0001 0 0 .0001 75 30)"
         >
           <stop offset={0} stopColor="#16AD6C" />
@@ -30,12 +30,12 @@ const Excel = () => (
           height={172}
           xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARkAAACsCAMAAAB4vihXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB1UExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHlZfVgAAAAndFJOUwABAgMEBQYHCAkKCwwNDg8QERITFBUWFxgZGhscHR4fICEiIyQlJmYg+lgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO0SURBVHhe7drhUtpAGEZhSYAASQBDUIgIMWDv/xK7Sb+hAfdFOkPbH3ueP+L6OY5nDLsBnwD8JYNwWQGP7stRuLrf31r0tVXieBiyOG7rWI+ztstwnCSTcCXJeNi2sSJmMHBdJrMsz+ehyvNsNnFtLtO4MKNkli+LVVmuw1SWq2KZp8noMs0gGibpYvWyqaq3UFXV5mW1SCfDqFfG/cmM00W52e0PdbgO+92mXKZJP80gGk3mq817/dEcw9V81O/bcj4d9cvE49nyZVc3p8+QnZp69/qcjuN+mSQrtvs2zI9wtWn22yJLemWi4SQvq8Mx6DBtmuOhKnP3HGxd2p1pMl+/1ceww7g0x/ptPe/tTpQxv8pML8pMF+sdZVyZ3XpBma8oo1BGoYxCGYUyCmUUyiiUUSijUEahjEIZhTIKZRTKKL4yvKbXcmV4tdPrS5n2vQPKOOcy1uVXmZIyXZnyukxeVpRxZS7fb/r9TpxNhOrLO3GUMZRRKKNQRqGMwt6kqPMMZSijnMv075so41BG4WpSXBn2Ji/KKJz0FMoolFEoo1BGoYxCGYUyCic9hfsmhTIKZRTKKJRRKKO4MuzaXpz0FMoolFEoo1BGoYxCGYUyCic9hTIK903KuQz/JXKFMgpXk0IZxZVhb/LipKdQRqGMQhmFMgplFMoolFEoo3AGVrhvUiijnMvw+swVyihcTYorw97kRRmFk55CGYUyCmUUyiiUUSijUEbhpKdw36RQRqGMQhmFMgplFFeGXduLk55CGYUyCmUUyiiUUSijUEbhpKdQRuG+STmX4b9ErlBG4WpSKKO4MuxNXpz0FMoolFEoo1BGoYxCGYUyCmUUzsAK900KZZRzGV6fuUIZhatJcWXYm7woo3DSUyijUEahjEIZ5UaZsNN8yjLNKfAyp+ZrmSRfbffN8fQZstOx2W9XedIrM4iTrNi8101zDFnT1O+bIkvi8w2lKzNOl+tqtz+Ebb+r1st0fFFmNM2L9etWqnpsycMGOrbkYxMdW/KxiY4t+dhEx5Y8bKBjSx6v6yKfjvpl3BPNLF8+F6sbyo59It039V/Gvp8qnpf5zD3N9MoM4mEynaVZlt8yt4/feOjYv/yZWZbOpskwHvwu06UZjZObJi17fMN9Y93UY8fs8Q13jI1Hl2HaNFEU3zI8swUvG3Fswc9mHFvwsxnHFvxsxrEFLxtxbMEvii7DOIPvRC17fMNDx+6beuyY9fgDd37bfWPd1GPH7PENd44BwD/x9PQTj0mlKZsVScoAAAAASUVORK5CYII="
           preserveAspectRatio="none"
-          id="Excel__c"
+          id="excel__c"
         />
       </defs>
-      <g clipPath="url(#Excel__a)" transform="translate(-65 -21)">
-        <g clipPath="url(#Excel__b)" transform="translate(64 20)">
-          <use width="100%" height="100%" xlinkHref="#Excel__c" />
+      <g clipPath="url(#excel__a)" transform="translate(-65 -21)">
+        <g clipPath="url(#excel__b)" transform="translate(64 20)">
+          <use width="100%" height="100%" xlinkHref="#excel__c" />
         </g>
         <path
           d="M80.71 30H328.29A5.711 5.711 0 01334 35.71V181H75V35.71A5.71 5.71 0 0180.71 30z"
@@ -63,7 +63,7 @@ const Excel = () => (
         />
         <path
           d="M80.428 30h248.144A5.428 5.428 0 01334 35.428V47H75V35.428A5.428 5.428 0 0180.428 30z"
-          fill="url(#Excel__d)"
+          fill="url(#excel__d)"
           fillRule="evenodd"
         />
         <path
@@ -77,7 +77,7 @@ const Excel = () => (
 )
 
 const PowerBI = () => (
-  <div className="w-3/4 mr-auto">
+  <div className="w-full mr-auto">
   <svg viewBox="0 0 279 170" overflow="hidden">
       <defs>
         <clipPath id="PowerBI__a">
@@ -185,7 +185,7 @@ const PowerBI = () => (
         />
         <path
           d="M346 21.5c0-1.38.895-2.5 2-2.5s2 1.12 2 2.5-.895 2.5-2 2.5-2-1.12-2-2.5zM354 21.5a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0zM363 21.5c0-1.38.895-2.5 2-2.5s2 1.12 2 2.5-.895 2.5-2 2.5-2-1.12-2-2.5z"
-          fill="#212121"
+          fill="#EDBD11"
           fillRule="evenodd"
         />
         <path fill="#F3F2F1" d="M118 29h259v17H118z" />

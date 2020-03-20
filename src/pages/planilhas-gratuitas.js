@@ -13,7 +13,7 @@ const PlanilhasGratuitasPage = () => (
       <p className="text-white text-xl text-center font-light pt-2 pb-24">Feitas especialmente para você.</p>
     </div>
     {planilhasData.map(data => (
-      <PlanilhasSection id={data.id} title={data.title} description={data.description} img={data.img} reverseOrder={data.reverseOrder} />
+      <PlanilhasSection id={data.id} title={data.title} description={data.description} img={data.img} downloadLink={data.downloadLink} reverseOrder={data.reverseOrder}  />
     ))}
   </Layout>
 )
