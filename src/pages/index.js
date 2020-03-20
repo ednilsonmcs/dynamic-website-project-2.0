@@ -43,6 +43,7 @@ export default () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48 border-l-2 pl-8 border-primary">
           <h3 className="text-3xl font-light leading-tight mb-6">PACOTE OFFICE</h3>
+          <p className="text-gray-700 mb-4">Conheça nossas soluções em planilhas, apresentações, documentos e criação de Dashboards. Substitua as tarefas repetitivas na sua empresa por ferramentas automatizadas.</p>
           <svg overflow="hidden" viewBox="0 0 467 119">
       <defs>
         <clipPath id="officePrefix__a">
@@ -175,6 +176,7 @@ export default () => (
           <h3 className="text-3xl font-light leading-tight mb-6 ">
             PLATAFORMA POWER
           </h3>
+          <p className="text-gray-700 mb-4">Implemente na sua empresa as ferramentas mais novas e modernas da Microsoft. Faça a gestão da sua empresa utilizando o Power BI, aplicativos mobile e web ou fluxos automatizados entre APIs.</p>
           <svg className="w-64 ml-auto" overflow="hidden" viewBox="0 0 315 95">
           <defs>
             <clipPath id="powerPrefix__a">

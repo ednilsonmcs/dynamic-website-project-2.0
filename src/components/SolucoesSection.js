@@ -19,8 +19,7 @@ const SolucoesSection = () => (
           <DevIcon />
           <p className="font-semibold text-xl">Desenvolvimento</p>
           <p className="mt-4 mb-8">
-          Planilha que consome muito seu tempo? Tantos detalhes que sempre acaba com alguma informação errada?
-Criamos ferramentas automatizadas!
+          Desenvolva uma projeto personalizado para sua empresa. Planilhas inteligentes, dashboards, sistemas automatizados em VBA ou aplicativos empresariais, com as ferramentas mais integradas no mercado.
           </p>
         </Card>
       </div>
