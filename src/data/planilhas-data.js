@@ -1,17 +1,17 @@
 export default [
   {
-    title:'Planilha Gestão Financeira',
-    description:'A segunda planilha gratuita desse ano da Dynamic Soluções é para controlar as finanças pessoais. Ela possui um Dashboard interativo por datas, cadastro de metas e lançamentos com o uso facilitado e intuitivo.',
-    img:'https://svgur.com/i/JFm.svg',
-    downloadLink: 'https://drive.google.com/u/0/uc?id=1V2ymiTrm8h1v3ed8Q7we7AjtOXiAnAAa&export=download',
+    title:'Planilha Gestão de Leads',
+    description:'Registre potenciais clientes e faça o acompanhamento das datas de contatos para visualizar através de gráficos o seu funil de vendas.',
+    img:'https://svgshare.com/i/JJf.svg',
+    downloadLink: 'https://bit.ly/planilha-gestao-leads-dyn0001',
     reverseOrder: false,
     id: 1
   },
   {
     title:'Planilha Gestão Financeira',
-    description:'A segunda planilha gratuita desse ano da Dynamic Soluções é para controlar as finanças pessoais. Ela possui um Dashboard interativo por datas, cadastro de metas e lançamentos com o uso facilitado e intuitivo.',
+    description:'Cadastre metas de economia e faça o controle de todos os gastos e despesas pessoais nessa planilha interativa, com gráficos para acompanhamento do seu orçamento mensal.',
     img:'https://svgur.com/i/JFm.svg',
-    downloadLink: 'https://drive.google.com/u/0/uc?id=1V2ymiTrm8h1v3ed8Q7we7AjtOXiAnAAa&export=download',
+    downloadLink: 'https://bit.ly/planilha-gestao-financeira-dyn0002',
     reverseOrder: true,
     id: 2
   },
