@@ -5,7 +5,7 @@ import DynamicLogo from '../../svg/DynamicLogo'
 import {Whatsapp} from '../../svg/SocialIcons'
 
 const Header = () => (
-  <header className="sticky top-0 bg-white shadow">
+  <header className="sticky z-10 top-0 bg-white shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-2xl">
         <div className="w-40 mr-3">
