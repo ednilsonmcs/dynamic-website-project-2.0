@@ -21,7 +21,7 @@ function SEO({ description, lang, meta, title, image }) {
 
   const metaDescription = description || site.siteMetadata.description
 
-  const ogImage = site.siteMetadata.image
+  const ogImage = `${siteUrl}/assets/img/dynamic.jpeg`
 
   return (
     <Helmet
