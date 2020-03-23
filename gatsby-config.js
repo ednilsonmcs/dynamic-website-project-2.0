@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Dynamic Soluções',
     description: 'Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft.',
-    siteUrl: 'https://dynamicpoa.com'
+    siteUrl: 'https://dynamicpoa.com',
+    image: "/assets/img/dynamic.jpeg"
   },
   plugins: [
     {
