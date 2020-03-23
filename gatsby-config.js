@@ -3,7 +3,7 @@ module.exports = {
     title: 'Dynamic Soluções',
     description: 'Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft.',
     siteUrl: 'https://dynamicpoa.com',
-    image: "/assets/img/dynamic.png"
+    image: "/assets/img/dynamic-cover.jpeg"
   },
   plugins: [
     {
