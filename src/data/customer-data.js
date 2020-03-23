@@ -18,7 +18,7 @@ export default [
   {
     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
     content:
-      'Quando o assunto é Microsoft sabemos que a Dynamic vai saber resolver. Não conheço nenhuma empresa mais capacitada que eles na área. Desenvolveu meu sistema completo e dashboard para controle, por um preço muito barato.',
+      'Quando o assunto é Microsoft sabemos que a Dynamic vai saber resolver. Não conheço nenhuma empresa mais capacitada que eles na área. Desenvolveram meu sistema completo e um dashboard para controle de dados, pelo valor recebido acabou saindo por um preço muito baixo.',
     customerName: 'Rafael Muttoni',
     customerTitle: 'CTO na Muttoni Digital',
     customerImage: 'https://muttonidigital.com/images/logo.svg'
