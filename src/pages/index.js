@@ -288,9 +288,9 @@ export default () => (
       secondarySlot={<PowerBI />}
       classMargin="mr-auto"
     />
-    <LabelText className="mb-8 mt-24 text-gray-600 text-center">Quem confia na Dynamic</LabelText>
+    <LabelText className="mb-0 md:mb-8 mt-24 text-gray-600 text-center">Quem confia na Dynamic</LabelText>
     <LogoSection />
-    <section id="depoimentos" className="py-20 lg:py-40">
+    <section id="depoimentos" className="py-10 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">O que dizem nossos clientes</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
