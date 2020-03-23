@@ -305,7 +305,7 @@ export default () => (
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ficou com alguma dúvida?</h3>
-      <p className="mt-8 mb-12 text-lg font-light">
+      <p className="mx-4 md:mx-auto mt-8 mb-12 text-lg font-light">
         Estamos à sua disposição! A Dynamic tem a solução ideal para a sua empresa.
       </p>
       <p>
