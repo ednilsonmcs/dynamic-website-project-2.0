@@ -2,3 +2,6 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://dynamicpoa.netlify.com/* https://dynamicpoa.com/:splat 301!
+
+# Redirect HTTP to HTTPS
+http://dynamicpoa.com/* https://dynamicpoa.com/:splat 301!
