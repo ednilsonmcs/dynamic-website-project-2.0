@@ -3,7 +3,7 @@ module.exports = {
     title: 'Dynamic Soluções',
     description: 'Desenvolvimento, Consultoria e Treinamento nas ferramentas da Microsoft.',
     siteUrl: 'https://dynamicpoa.com',
-    image: "/assets/img/dynamic-cover.jpeg"
+    image: '/assets/img/dynamic-cover.jpeg'
   },
   plugins: [
     {
@@ -17,11 +17,17 @@ module.exports = {
         display: `standalone`,
         icon: `src/images/logo.svg`
       }
-    },  
+    },
     {
       resolve: `gatsby-theme-codebushi`,
       options: {
         tailwindConfig: `tailwind.config.js`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none'
       }
     },
     `gatsby-plugin-react-helmet`,
