@@ -7,6 +7,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none'
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Dynamic Soluções`,
@@ -22,12 +28,6 @@ module.exports = {
       resolve: `gatsby-theme-codebushi`,
       options: {
         tailwindConfig: `tailwind.config.js`
-      }
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none'
       }
     },
     `gatsby-plugin-react-helmet`,
