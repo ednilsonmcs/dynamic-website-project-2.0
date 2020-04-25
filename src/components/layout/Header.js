@@ -23,6 +23,9 @@ const Header = () => (
         </Link>
       </div>
       <a 
+        href="/planos" 
+        className="px-4 font-bold mt-3 md:mt-0 lg:mr-4">Planos</a>
+      <a 
         target="_blank" 
         href="https://api.whatsapp.com/send?phone=5551996936418" 
         className="px-4 bg-green-500 hover:bg-green-700 text-white hover:text-white mt-3 md:mt-0 lg:mr-6 rounded"><Whatsapp /></a>
