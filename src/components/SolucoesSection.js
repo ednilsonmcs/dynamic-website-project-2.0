@@ -15,7 +15,7 @@ const SolucoesSection = () => (
     <p className="mt-4 text-white text-xl font-thin mx-4 md:mx-0">Soluções personalizadas e pensadas no seu negócio</p>
     <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
       <div className="flex-1 px-3 m-6 md:m-2">
-        <Card>
+        <Card className="p-12 h-full">
           <DevIcon />
           <p className="font-semibold text-xl">Desenvolvimento</p>
           <p className="mt-4 mb-8">
@@ -24,7 +24,7 @@ const SolucoesSection = () => (
         </Card>
       </div>
       <div className="flex-1 px-3 m-6 md:m-2">
-        <Card>
+        <Card className="p-12 h-full">
           <BulbIcon />
           <p className="font-semibold text-xl">Consultoria</p>
           <p className="mt-4">
@@ -34,7 +34,7 @@ const SolucoesSection = () => (
         </Card>
       </div>
       <div className="flex-1 px-3 m-6 md:m-2">
-        <Card>
+        <Card className="p-12 h-full">
           <ClassIcon />
           <p className="font-semibold text-xl">Treinamento</p>
           <p className="mt-4">

@@ -6,11 +6,13 @@ const sizes = {
   xl: `py-5 px-16 text-lg`
 };
 
-const Button = ({ children, className = '', size }) => {
+const Button = ({ children, className = '', size, marginTop = 0}) => {
   const [hovered, setHovered] = useState(false)
+  const [margin, setMargin] = useState(marginTop)
 
   const styles = {
     background: hovered ? "#243066" : "linear-gradient(29deg, #5B87B5, #3B5F9E 70%)",
+    marginTop: margin ? marginTop+"px" : ""
   }
 
   return (
