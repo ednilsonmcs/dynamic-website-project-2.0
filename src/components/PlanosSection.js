@@ -116,7 +116,7 @@ const PlanosSection = () => {
                   <Button marginTop="20">Entrar em contato</Button>
                 </a>
                 <p className="p-6 font-hairline">
-                Para equipes maiores ou planos com maior disponibilidade mensal.
+                para equipes maiores ou planos com mais disponibilidade mensal
                 </p>
               </Card>
             </div>
@@ -140,7 +140,7 @@ const PlanosSection = () => {
             </thead>
             <tbody>
               <tr className='bg-gray-100'>
-                <td colspan="4" className="border px-4 py-2">Descrição do plano</td>
+                <td colspan="4" className="border px-4 py-2">O que está incluso</td>
               </tr>
               {
                 dataTable.map((data,index) => {
