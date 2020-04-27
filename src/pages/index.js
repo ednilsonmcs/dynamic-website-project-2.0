@@ -176,7 +176,7 @@ export default () => (
           <h3 className="text-3xl font-light leading-tight mb-6 ">
             PLATAFORMA POWER
           </h3>
-          <p className="text-gray-700 mb-4">Implemente as ferramentas mais novas <br/> e modernas da Microsoft. Faça a gestão da sua empresa <br/> utilizando o Power BI, aplicativos mobile ou <br/> fluxos automatizados entre APIs.</p>
+          <p className="text-gray-700 mb-4">Implemente as ferramentas mais novas <br/> e modernas da Microsoft. Faça a gestão da sua <br/> empresa utilizando o Power BI, aplicativos <br/> ou fluxos automatizados entre APIs.</p>
           <svg className="w-64 ml-auto" overflow="hidden" viewBox="0 0 315 95">
           <defs>
             <clipPath id="powerPrefix__a">
