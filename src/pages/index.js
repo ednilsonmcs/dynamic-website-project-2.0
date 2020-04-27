@@ -42,7 +42,7 @@ export default () => (
       id="ferramentas"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48 border-l-2 pl-8 border-primary">
-          <h3 className="text-3xl font-light leading-tight mb-6">PACOTE OFFICE</h3>
+          <h3 className="text-3xl font-light leading-tight mb-6">MICROSOFT 365</h3>
           <p className="text-gray-700 mb-4">Conheça nossas soluções em planilhas, apresentações, documentos e criação de Dashboards. Substitua as tarefas repetitivas na sua empresa por ferramentas automatizadas.</p>
           <svg overflow="hidden" viewBox="0 0 467 119">
       <defs>
@@ -176,7 +176,7 @@ export default () => (
           <h3 className="text-3xl font-light leading-tight mb-6 ">
             PLATAFORMA POWER
           </h3>
-          <p className="text-gray-700 mb-4">Implemente na sua empresa as ferramentas mais novas e modernas da Microsoft. Faça a gestão da sua empresa utilizando o <br/>Power BI, aplicativos mobile e web <br/>ou fluxos automatizados entre APIs.</p>
+          <p className="text-gray-700 mb-4">Implemente as ferramentas mais novas e modernas da Microsoft <br/>. Faça a gestão da sua empresa utilizando o Power BI, aplicativos mobile e web <br/>ou fluxos automatizados entre APIs.</p>
           <svg className="w-64 ml-auto" overflow="hidden" viewBox="0 0 315 95">
           <defs>
             <clipPath id="powerPrefix__a">
@@ -288,7 +288,7 @@ export default () => (
       secondarySlot={<PowerBI />}
       classMargin="mr-auto"
     />
-    <LabelText className="mb-0 md:mb-8 mt-24 text-gray-600 text-center">Quem confia na Dynamic</LabelText>
+    <LabelText className="mb-0 md:mb-8 mt-24 text-gray-600 text-center">Alguns de nossos clientes</LabelText>
     <LogoSection />
     <section id="depoimentos" className="py-10 lg:py-40">
       <div className="container mx-auto">
