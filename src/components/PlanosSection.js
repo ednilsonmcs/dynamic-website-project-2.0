@@ -13,7 +13,7 @@ const PlanosSection = () => {
     [
       { id: 1, name: 'Descontos em projetos e treinamentos', simples: '5%', padrao: '10%', completo: '20%', father: -1},
       { id: 2, name: 'Horas disponíveis/mês', simples: '5h', padrao: '15h', completo: '30h', father: -1 },
-      { id: 3, name: 'Desconto em projetos e treinamentos', simples: 1, padrao: 1, completo: 1, father: -1 },
+      { id: 3, name: 'Tamanho máximo da equipe', simples: '2', padrao: '5', completo: '15', father: -1 },
       { id: 4, name: 'Dicas, sugestões e resolução de dúvidas em geral (licenciamento, segurança, etc.)', simples: 1, padrao: 1, completo: 1, father: -1 },
       { id: 5, name: 'Análise de possibilidades de automação e melhorias', simples: 1, padrao: 1, completo: 1, father: -1 },
       { id: 6, name: 'Criação/edição de códigos em VBA (macros)', simples: '-', padrao: 1, completo: 1, father: -1 },
@@ -81,7 +81,7 @@ const PlanosSection = () => {
                     ? <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>86</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                     : <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>69</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                   }
-                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '5h/mês' : '5h/mês'}</p>
+                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '5h/mês - até 2 pessoas' : '5h/mês - até 2 pessoas'}</p>
                 <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100px'}} src={icon} alt="Logo"/>              
               </Card>
             </div>
@@ -93,7 +93,7 @@ const PlanosSection = () => {
                     ? <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>73</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                     : <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>58</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                   }
-                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '15h/mês' : '15h/mês'}</p>
+                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '15h/mês - até 5 pessoas' : '15h/mês - até 5 pessoas'}</p>
                 <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100px'}} src={icon} alt="Logo"/>  
               </Card>
             </div>
@@ -105,7 +105,7 @@ const PlanosSection = () => {
                     ? <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>59</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                     : <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>46</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                   }
-                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '30h/mês' : '30h/mês'}</p>
+                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '30h/mês - até 15 pessoas' : '30h/mês - até 15 pessoas'}</p>
                 <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100px'}} src={icon} alt="Logo"/>  
               </Card>
             </div>
