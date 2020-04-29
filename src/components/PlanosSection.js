@@ -12,12 +12,12 @@ const PlanosSection = () => {
   const [dataTable] = useState(
     [
       { id: 1, name: 'Descontos em projetos e treinamentos', simples: '5%', padrao: '10%', completo: '20%', father: -1},
-      { id: 2, name: 'Horas disponíveis/mês', simples: 1, padrao: 1, completo: 1, father: -1 },
-      { id: 3, name: 'Desconto em projetos e treinamentos', simples: 1, padrao: 1, completo: 1, father: -1 },
+      { id: 2, name: 'Horas disponíveis/mês', simples: '5h', padrao: '15h', completo: '30h', father: -1 },
+      { id: 3, name: 'Tamanho máximo da equipe', simples: '2', padrao: '5', completo: '15', father: -1 },
       { id: 4, name: 'Dicas, sugestões e resolução de dúvidas em geral (licenciamento, segurança, etc.)', simples: 1, padrao: 1, completo: 1, father: -1 },
-      { id: 5, name: 'Análise de possibilidades de automação e melhorias', simples: '-', padrao: 1, completo: 1, father: -1 },
+      { id: 5, name: 'Análise de possibilidades de automação e melhorias', simples: 1, padrao: 1, completo: 1, father: -1 },
       { id: 6, name: 'Criação/edição de códigos em VBA (macros)', simples: '-', padrao: 1, completo: 1, father: -1 },
-      { id: 7, name: 'Criação/padronização de layouts de acordo com a identidade visual', simples: 1, padrao: 1, completo: 1, father: -1 },
+      { id: 7, name: 'Criação/padronização de layouts de acordo com a identidade visual', simples: '-', padrao: 1, completo: 1, father: -1 },
       { id: 8, name: 'Suporte em Microsoft Excel', simples: 1, padrao: 1, completo: 1, father: 0 },
       { id: 9, name: 'Criação de planilhas', simples: 1, padrao: 1, completo: 1, father: 8 },
       { id: 10, name: 'Edição de planilhas (fórmulas, layout, correções, configurações, etc.)', simples: 1, padrao: 1, completo: 1, father: 8 },
@@ -81,7 +81,7 @@ const PlanosSection = () => {
                     ? <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>86</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                     : <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>69</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                   }
-                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '5h/mês' : '5h/mês'}</p>
+                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '5h/mês - até 2 pessoas' : '5h/mês - até 2 pessoas'}</p>
                 <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100px'}} src={icon} alt="Logo"/>              
               </Plan>
             </div>
@@ -93,7 +93,7 @@ const PlanosSection = () => {
                     ? <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>73</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                     : <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>58</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                   }
-                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '15h/mês' : '15h/mês'}</p>
+                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '15h/mês - até 5 pessoas' : '15h/mês - até 5 pessoas'}</p>
                 <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100px'}} src={icon} alt="Logo"/>  
               </Plan>
             </div>
@@ -105,7 +105,7 @@ const PlanosSection = () => {
                     ? <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>59</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                     : <div>R$<div className="font-hairline text-5xl" style={{display: 'inline-block'}}>46</div><div className="font-hairline text-xl"style={{display: 'inline-block'}}>/h</div></div>
                   }
-                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '30h/mês' : '30h/mês'}</p>
+                <p className="mt-4 mb-2 font-hairline">{(tipoPlano == 'Mensal') ? '30h/mês - até 15 pessoas' : '30h/mês - até 15 pessoas'}</p>
                 <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100px'}} src={icon} alt="Logo"/>  
               </Plan>
             </div>
@@ -116,7 +116,7 @@ const PlanosSection = () => {
                   <Button marginTop="20">Entrar em contato</Button>
                 </a>
                 <p className="p-6 font-hairline">
-                É um fato conhecido de todos que um leitor se distrairá com o conteúdo.
+                para equipes maiores ou planos com mais disponibilidade mensal
                 </p>
               </Plan>
             </div>
@@ -127,7 +127,7 @@ const PlanosSection = () => {
 
           <h2 className="text-black text-4xl lg:text-6xl text-center font-bold mx-4 md:mx-0">Compare os planos</h2>
 
-          <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">Todos os planos incluem suporte em todoas as ferramentas do Microsoft</p>
+          <p className="mt-4 text-black text-xl font-thin mx-4 md:mx-0 text-center">Entenda como vamos ajudar sua empresa a aumentar a produtividade</p>
 
           <table className="table-auto" style={{marginTop:'60px'}}>
             <thead>
@@ -140,7 +140,10 @@ const PlanosSection = () => {
             </thead>
             <tbody>
               <tr className='bg-gray-100'>
+
                 <td colspan="4" className="border px-4 lg:py-2">Atrair</td>
+=======
+                <td colspan="4" className="border px-4 py-2">O que está incluso</td>
               </tr>
               {
                 dataTable.map((data,index) => {

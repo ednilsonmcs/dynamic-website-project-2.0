@@ -18,10 +18,10 @@ const CursosPage = () => (
             <DynamicIcon />
           </div>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-          Cursos particulares online para aprofundar os conhecimentos nas ferramentas da Microsoft.
+          Aulas particulares online para aprofundar os conhecimentos nas ferramentas da Microsoft.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button><AnchorLink className="text-white hover:text-white" href="#planos">Conheça os Planos</AnchorLink></Button>
+            <Button><AnchorLink className="text-white hover:text-white" href="#planos">Ver preços</AnchorLink></Button>
           </p>
         </div>
         <div className="m-0 hidden lg:w-1/2 lg:block">

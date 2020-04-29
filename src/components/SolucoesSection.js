@@ -45,7 +45,7 @@ abrir portas para novas possibilidades.
       </div>
     </div>
     <AnchorLink href="#ferramentas">
-    <LineButton className="mt-12 flex mx-auto">Especialidades Dynamic</LineButton>
+    <LineButton className="mt-12 flex mx-auto">Plataformas</LineButton>
     </AnchorLink>
   </div>
 </section>
